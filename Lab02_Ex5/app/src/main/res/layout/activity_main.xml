@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#F8F3C8">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lo_1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_google"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:gravity="center"
+            android:text="Open Google"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:id="@+id/lo_2">
+
+       <Button
+           android:id="@+id/btn_phone"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="56dp"
+           android:backgroundTint="@color/black"
+           android:text="Open Phone"
+           android:textColor="@color/white"/>
+   </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/lo_3">
+
+        <Button
+            android:id="@+id/btn_mess"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="112dp"
+            android:backgroundTint="@color/black"
+            android:text="Open mess"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/lo_4">
+
+        <Button
+            android:id="@+id/btn_setting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="168dp"
+            android:backgroundTint="@color/black"
+            android:text="Open Wifi"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/lo_5">
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="224dp"
+        android:backgroundTint="@color/black"
+        android:text="Open contact"
+        android:textColor="@color/white"/>
+
+
+</RelativeLayout>
