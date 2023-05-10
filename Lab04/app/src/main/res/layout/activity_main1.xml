@@ -1,0 +1,24 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/Btn_ReadData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Read File" />
+    <EditText
+        android:id="@+id/EditText_Data"
+        android:layout_width="match_parent"
+        android:layout_height="650dp"
+        android:hint="File contents will appear here"
+        android:contentDescription="File contents will appear here"
+        android:inputType="text"
+        android:gravity="center"/>
+
+
+
+</LinearLayout>
