@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name">Lab5_Ex2</string>
-    <string name="no_results">noResult</string>
-    <string name="loading">loading</string>
-    <string name="no_search_term">no_search_term</string>
-    <string name="no_network">no_network</string>
-</resources>
