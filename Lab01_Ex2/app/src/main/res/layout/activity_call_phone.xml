@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CallPhoneActivity">
+
+    <TextView
+        android:id="@+id/tvEnterNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EAE7D1"
+        android:gravity="center"
+        android:text="Nhập số cần gọi"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="213dp">
+
+        <EditText
+            android:id="@+id/editPhoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="82dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="number" />
+
+        <ImageButton
+            android:id="@+id/imagebtnCall"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/icons8_call_50" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
